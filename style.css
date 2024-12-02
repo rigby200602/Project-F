@@ -59,7 +59,7 @@ ul a {
 }
 #btn {
     display: inline-block;
-    width: 25%;
+    width: 35%;
     height: 30px;
     border:none;
     border-radius: 4px;
@@ -67,6 +67,8 @@ ul a {
     color: white;
 }
 #btn a{
+    width: 100%;
+    height: 100%;
     background-color: red;
     color: white;
     width: 100%;
