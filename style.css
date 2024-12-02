@@ -1,23 +1,24 @@
-header {
-    display: block;
-    background-color: black;
-    max-width: 100%;
-    max-height: 300px;
-    color:white;
-    text-align: center;
+body{
+    margin: 0;
+    padding: 0;
 }
-
 nav {
-    display: block;
-    background-color: green;
+    background-color: rgb(21, 208, 21);
+    width: 100%;
+    height: 30px;
 }
 nav a {
     color: whitesmoke;
-    display: inline;
-    max-width: auto;
-    margin-right: 20px;
+    display: inline-block;
     text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+.navL {
+    float: right;
 }
 nav a:hover{
-    color:black;
+    color:rgb(3, 90, 3);;
+    background-color: rgb(6, 171, 6);
+    text-decoration: none;
 }
