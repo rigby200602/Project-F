@@ -3,22 +3,23 @@ body{
     padding: 0;
 }
 nav {
-    background-color: rgb(21, 208, 21);
+    background-color: black;
     width: 100%;
-    height: 30px;
+    height: 50px;
 }
 nav a {
     color: whitesmoke;
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    padding: 5px;
+    padding: 1%;
 }
 .navL {
     float: right;
 }
 nav a:hover{
-    color:rgb(3, 90, 3);;
-    background-color: rgb(6, 171, 6);
+    color: white;
+    background-color: rgb(106, 119, 106);
     text-decoration: none;
+    border-bottom: none;
 }
