@@ -16,6 +16,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     padding: 1%;
+    margin-bottom: 10px;
 }
 .navL {
     float: right;
@@ -28,6 +29,9 @@ nav a:hover{
 nav a:active{
     background-color: white;
     color: black;
+
+    text-decoration: underline;
+    text-decoration-color: red ;
 }
 .cnt {
     color: white;
@@ -75,4 +79,11 @@ ul a {
     background-color: red;
     color: white;
     width: 100%;
+}
+.act {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
 }
